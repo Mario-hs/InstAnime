@@ -1,0 +1,149 @@
+html {
+    font-family: sans-serif, "Arial";
+}
+.logo-1{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px 10px;
+    position: relative;
+    margin-top: 50px;
+}
+body {
+    margin: 0;
+    background-color: #D3D3D3;
+}
+.barra-lateral {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #FFFFFF;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.barra-lateral-02{
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.barra-lateral-02 a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align:justify;
+
+}
+.barra-lateral-02 a:hover:not(.active) {
+    color: #008B8B	;
+}
+.buscar-lateral[type="text"] {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color:#FFFFFF;
+    padding: 10px 10px 10px 20px;
+    margin-top: 100px;
+}
+.segunda-barra{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #FFFFFF;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+.galeria{
+    float: left;
+}
+.fonte{
+    font-family: "Arial";
+    font-size: 18px;
+}
+.logo-1{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px 10px;
+    position: relative;
+    left: 35px;
+}
+.primeiro-fundo {
+    width:inherit;
+    height: 600px;
+    background-image: url(login/fundo.jpg);
+    background-attachment:local;
+    background-position: bottom right;
+    color: #FFFFFF;
+}
+.primeiro{
+    position: relative;
+    left: 100px;
+    width: 500px;
+}
+.img-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 10px; 
+}
+.img-3{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 10px;
+}
+.sbt-1{
+    position: relative;
+    left: 50px;
+    top:150px;
+}
+.sbt-2{
+    clear: left;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.sbt-3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.pg-inicial {
+    text-align: center;
+    background-color: #DCDCDC;
+    color: #FFFFFF;
+    padding: 1em;
+}
+.icones-redes-sociais li {
+    display: inline-block;
+}
+.icones-redes-sociais a {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.instagram{
+    background-image: url(login/logo-instagram.png);
+}
+.facebook{
+    background-image: url(login/logo-facebook.png);
+}
+.capas{
+    width: 50px;
+    position: inherit;
+    background-color: #FFFFFF;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}

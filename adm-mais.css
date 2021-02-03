@@ -1,0 +1,41 @@
+.visto{
+    float: right;
+    margin-right: 20px;
+}
+.aviso{
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+.comentarios{
+    border: #008B8B;
+    border-style: groove;
+    border-width: 1px;
+}
+.resp{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.coment{
+    margin-left: 20px;
+    margin-right: 40px;
+    border-bottom-color: #008B8B;
+    border-bottom-style: groove;
+    border-width: 1px;
+    
+}
+.us-coment{
+    margin-left: 20px;
+}
+.perfil{
+    color: #000000;
+}
+.posicao{
+    top: 100px;
+    background-color: #FFD700;
+    width: 300px;
+    height: 100px;
+    top: 100px;
+    position: absolute;
+}

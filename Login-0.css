@@ -1,0 +1,30 @@
+.botao{
+    position: absolute;
+    top: 50;
+    right: 200;
+    width: 100px;
+    height: 30px;
+    color:#FFFFFF;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    float: right;
+    top: 10px;
+    margin: 50px;
+    
+}
+.botoes li{
+    display: inline-block;
+    line-height: 75px;
+}
+.autores{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #000000;
+    list-style-type: none;
+}
+.autores li{
+    display: inline-block;
+}

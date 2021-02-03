@@ -1,0 +1,75 @@
+.fundo{
+    background-image: url(perfil/HSD.jpeg);
+    width: 100%;
+    height: 300px;
+    position: inherit;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+    display: inline-block;
+}
+.barra-h {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.barra-horizontal {
+    float: left;
+}
+
+.barra-horizontal a {
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+.barra-horizontal a:hover {
+    background-color: #111;
+}
+.descricao{
+    margin-left: 20px;
+}
+.visto{
+    float: right;
+    margin-right: 20px;
+}
+.aviso{
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+.comentarios{
+    border: #008B8B;
+    border-style: groove;
+    border-width: 1px;
+}
+.resp{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.coment{
+    margin-left: 20px;
+    margin-right: 40px;
+    border-bottom-color: #008B8B;
+    border-bottom-style: groove;
+    border-width: 1px;
+    
+}
+.us-coment{
+    margin-left: 20px;
+}
+.perfil{
+    color: #000000;
+}
+.posicao{
+    top: 100px;
+    background-color: #FFD700;
+    width: 300px;
+    height: 100px;
+    top: 100px;
+    position: absolute;
+}
